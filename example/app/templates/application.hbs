@@ -1,0 +1,12 @@
+<button {{action toggleProperty "showPopover"}}>toggle popover</button>
+
+<p>
+  x: {{input value=left type="number"}}<br>
+  y: {{input value=top type="number"}}
+</p>
+
+{{ic-popover-css}}
+{{#ic-popover open=showPopover x=left y=top}}
+  Hey, I am a popover.
+{{/ic-popover}}
+
