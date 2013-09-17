@@ -11,7 +11,7 @@ requirejs.config({
   baseUrl: '/base/.build/bower_components',
   packages: [
     {name: 'app', location: '../app'},
-    {name: 'my-addon', location: '../addon'}
+    {name: 'ic-popover', location: '../addon'}
   ],
   deps: tests,
   callback: window.__karma__.start
